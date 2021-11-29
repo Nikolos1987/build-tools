@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Калькулятор дат</title>
     <script type="module" src="./js/main.js"></script>
+   <link rel="stylesheet" href="stile.css">
 </head>
 <body>
-    <h2>Калькулятор дат</h2>
+    <button class="calc__button">Калькулятор дат</button>
+    <button class="timer">таймер</button>
+    <div class="datecalc">
     <form id="calcDate">
         <label for="dateFrom">
             Первая дата:
@@ -22,12 +25,14 @@
     </form>
     <p id="output">
     </p>
-    <button class="timer">таймер</button>
+</div>
+    
+    <div class="timerBlock">
     <input type="text" name="time" id="hour">
     <input type="text" name="time" id="minute">
     <input type="text" name="time" id="second">
     <button id="button">Запустить</button>
     <button id="stop">стоп</button>
     <div id="timer"></div>
-        
+     </div>   
 </html>
