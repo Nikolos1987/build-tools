@@ -1,3 +1,5 @@
+//заглушка
+
 import"./timerButtton.js"
 let openTimer=document.querySelector(".timer");
 let timerblok=document.querySelector('.timerBlock')
