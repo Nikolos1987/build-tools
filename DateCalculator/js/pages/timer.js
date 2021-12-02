@@ -1,4 +1,4 @@
-//заглушка
+//заглушка д.з 2
 
 import"./timerButtton.js"
 let openTimer=document.querySelector(".timer");
