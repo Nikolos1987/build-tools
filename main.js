@@ -1,0 +1,5 @@
+import pic1 from "./media/images/1.jpg"
+import pic2 from "./media/images/2.jpg"
+import pic3 from "./media/images/3.jpg"
+import pic4 from "./media/images/4.gif"
+import "./pict.js"

@@ -1,0 +1,18 @@
+.container{
+    max-width: 1140px; 
+    margin: 0 auto;
+
+  
+}
+.containerCards{
+    display: flex;  
+    flex-wrap: wrap;
+    height: 800px;
+}
+.cards{
+   width: 30%;
+   height: 30%;
+    background-color: bisque;
+    margin-left: 10px;
+    margin-top: 10px;
+}

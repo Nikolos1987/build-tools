@@ -1,0 +1,29 @@
+{
+  "name": "build-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "development": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolos1987/build-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolos1987/build-tools/issues"
+  },
+  "homepage": "https://github.com/Nikolos1987/build-tools#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.6.0"
+  }
+}
